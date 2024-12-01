@@ -190,14 +190,15 @@ export default function Home() {
           <div className="aid-main-right-content p-4 green-card">
             <div className="step-content h-100">
               <div className="content-row h-100">
-                <form className="d-flex flex-column justify-content-between h-100">
+                <form className="d-flex flex-column h-100">
                   <div className="row d-flex form-conatent-section">
-                    <div className="d-flex justify-content-between align-items-center pb-2">
+                    <div >
                       <h2>
                         Here are six previews to choose from, select one and play
                         the video
                       </h2>
                     </div>
+                    <div className="d-flex justify-content-between align-items-center pb-2">
                     <div className="left-list-prev pe-4">
                       <div className="d-flex flex-column justify-content-center align-items-center mb-4">
                         <div className="prevlist d-flex align-items-center flex-wrap w-100">
@@ -268,6 +269,8 @@ export default function Home() {
                           />
                         </div>
                       </div>
+                    </div>
+
                     </div>
                   </div>
                   <div className="form-action-section action d-flex align-items-center justify-content-center p-3">
